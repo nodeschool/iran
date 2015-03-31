@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "minicons-webalys";
+  src:url("../fonts/demoicons/minicons-webalys.eot");
+  src:url("../fonts/demoicons/minicons-webalysd41d.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/demoicons/minicons-webalys.ttf") format("truetype"),
+    url("../fonts/demoicons/minicons-webalys.svg#minicons-webalys") format("svg"),
+    url("../fonts/demoicons/minicons-webalys.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bt-icon:before,
+.bt-icon-alt:before {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none !important;
+  speak: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 1em;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+}
